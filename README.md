@@ -15,4 +15,4 @@ A browser extension to bring back the red subscribe button on YouTube's new UI.
 4. Enable *Developer Mode* (if applicable)
 5. Click *Load Unpacked*
 6. Find The Folder You Extracted Earlier
-**NOTE: YOU MUST KEEP THE EXTRACTED FOLDER**
+<br>**NOTE: YOU MUST KEEP THE EXTRACTED FOLDER**
