@@ -1,2 +1,5 @@
--- Optimized the search for the button, and lowered timeout
-    - This may lead to warning messages if your computer is slow, but I am working on a customizable timeout
+-- 0.1.3.2
+    - Updated the icon
+-- 0.1.3.1
+    - Optimized the search for the button, and lowered timeout
+        --- This may lead to warning messages if your computer is slow, but I am working on a customizable timeout
