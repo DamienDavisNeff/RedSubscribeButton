@@ -1,3 +1,6 @@
+-- 0.2.0.0
+    - Moved to CSS version, instead of JS
+        - This is much faster and more optmized
 -- 0.1.3.2
     - Updated the icon
 -- 0.1.3.1

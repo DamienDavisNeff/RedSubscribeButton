@@ -1,14 +1,14 @@
 {
     "manifest_version": 3,
     "name": "Return The Red Subscribe Button",
-    "version": "0.1.3.2",
+    "version": "0.1.3.3",
     "description": "Brings back the classic red subscribe button.",
     "icons":{
       "128":"images/icon.png",
       "48":"images/icon_small.png"
     },
     "content_scripts": [{
-      "js": ["bringBack.js"],
+      "css": ["subscribe.css"],
       "matches": ["https://www.youtube.com/*"]
     }]
 }
