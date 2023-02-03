@@ -1,6 +1,9 @@
+-- 0.2.0.1
+    -- Background back on unsubscribe button, shorts
 -- 0.2.0.0
     - Moved to CSS version, instead of JS
         - This is much faster and more optmized
+    -- KNOWN BUGS: does not work when signed out, background disappears on shorts
 -- 0.1.3.2
     - Updated the icon
 -- 0.1.3.1

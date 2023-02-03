@@ -14,3 +14,11 @@ ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
     background-color: var(--yt-spec-brand-button-background) !important;
     text-transform: uppercase !important;
 }
+
+/* RETURNS BACKGROUND TO UNSUBSCRIBE on SHORTS */
+html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    background-color: #303030 !important;
+}
+html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    background-color: #f2f2f2 !important;
+}
