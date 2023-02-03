@@ -6,6 +6,9 @@ ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.y
 }
 
 /* Makes SUBSCRIBE BUTTON Red */
+#subscribe yt-button-shape button,
+#subscribe-button yt-button-shape button,
+/* Top 2 required for non-signed in */
 ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label="Subscribe"],
 #subscribe-button yt-button-shape a[aria-label="Subscribe"],

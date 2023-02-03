@@ -1,3 +1,5 @@
+-- 0.2.0.2
+    -- Now works while signed out
 -- 0.2.0.1
     -- Background back on unsubscribe button, shorts
 -- 0.2.0.0
