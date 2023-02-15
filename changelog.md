@@ -1,3 +1,5 @@
+-- 0.3.1.0
+    -- All words in buttons in the engagment section are now uppercase
 -- 0.3.0.0
     -- Now returns the blue color of the JOIN button & Purchase Buttons
 -- 0.2.0.2
