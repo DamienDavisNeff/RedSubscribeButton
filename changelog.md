@@ -1,7 +1,6 @@
--- 0.3.1.0
-    -- All words in buttons in the engagment section are now uppercase
 -- 0.3.0.0
-    -- Now returns the blue color of the JOIN button & Purchase Buttons
+    -- Returned the Blue Color of the JOIN Button & Other BUY Buttons
+    -- Made all words uppercase in engagement section
 -- 0.2.0.2
     -- Now works while signed out
 -- 0.2.0.1
@@ -9,9 +8,3 @@
 -- 0.2.0.0
     - Moved to CSS version, instead of JS
         - This is much faster and more optmized
-    -- KNOWN BUGS: does not work when signed out, background disappears on shorts
--- 0.1.3.2
-    - Updated the icon
--- 0.1.3.1
-    - Optimized the search for the button, and lowered timeout
-        --- This may lead to warning messages if your computer is slow, but I am working on a customizable timeout

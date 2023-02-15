@@ -40,7 +40,7 @@ ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
     text-transform: uppercase !important;
 }
 
-/* Makes PURCHASE BUTTON Red */
+/* Makes PURCHASE BUTTON Blue */
 #purchase yt-button-shape button,
 #purchase-button yt-button-shape button,
 /* Top 2 required for non-signed in */
@@ -54,6 +54,63 @@ ytd-purchase-button-renderer yt-button-shape a[aria-label="Join"] {
     text-transform: uppercase !important;
 }
 
+/* Makes BUY BUTTON Blue */
+#buy yt-button-shape button,
+#buy-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-buy-button-renderer yt-button-shape button,
+#buy yt-button-shape a[aria-label="Join"],
+#buy-button yt-button-shape a[aria-label="Join"],
+ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+
+/* Makes ACTION BUTTON Blue */
+#action yt-button-shape button,
+#action-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-action-button-renderer yt-button-shape button,
+#action yt-button-shape a[aria-label="Join"],
+#action-button yt-button-shape a[aria-label="Join"],
+ytd-action-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+
+/* Makes COPY BUTTON Blue */
+#copy yt-button-shape button,
+#copy-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-copy-button-renderer yt-button-shape button,
+#copy yt-button-shape a[aria-label="Join"],
+#copy-button yt-button-shape a[aria-label="Join"],
+ytd-copy-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+
+/* Makes SHARE BUTTON Blue */
+#share yt-button-shape button,
+#share-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-share-button-renderer yt-button-shape button,
+#share yt-button-shape a[aria-label="Join"],
+#share-button yt-button-shape a[aria-label="Join"],
+ytd-share-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+
+/* Makes engagment uppercase */
 .yt-core-attributed-string--white-space-no-wrap {
     text-transform: uppercase;
 }
