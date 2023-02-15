@@ -25,3 +25,31 @@ html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-sh
 html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
     background-color: #f2f2f2 !important;
 }
+
+/* Makes JOIN BUTTON Blue */
+#sponsor yt-button-shape button,
+#sponsor-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-sponsor-button-renderer yt-button-shape button,
+#sponsor yt-button-shape a[aria-label="Join"],
+#sponsor-button yt-button-shape a[aria-label="Join"],
+ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+
+/* Makes PURCHASE BUTTON Red */
+#purchase yt-button-shape button,
+#purchase-button yt-button-shape button,
+/* Top 2 required for non-signed in */
+ytd-purchase-button-renderer yt-button-shape button,
+#purchase yt-button-shape a[aria-label="Join"],
+#purchase-button yt-button-shape a[aria-label="Join"],
+ytd-purchase-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: #075fd4 !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
