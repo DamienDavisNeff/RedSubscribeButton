@@ -1,3 +1,7 @@
+-- 0.3.1.0 (Unreleased Version!)
+    -- Made pressed buttons (mainly like buttons) blue again
+    -- Known Bugs:
+        - The Like Icon Does Not Become Blue After Animation
 -- 0.3.0.0
     -- Returned the Blue Color of the JOIN Button & Other BUY Buttons
     -- Made all words uppercase in engagement section

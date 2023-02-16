@@ -1,8 +1,9 @@
-/* Makes sure SUBSCRIBED BUTTON IS GRAY */
-#subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
-ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    color: var(--yt-spec-text-secondary) !important;
-    background-color: var(--yt-spec-badge-chip-background) !important;
+:root {
+    --subscribe-red: red;
+    --light-blue: #50a3f1;
+    --dark-blue: #075fd4;
+    --dark-background: #303030;
+    --light-background: #f2f2f2; 
 }
 
 /* Makes SUBSCRIBE BUTTON Red */
@@ -14,16 +15,21 @@ ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe-button yt-button-shape a[aria-label="Subscribe"],
 ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
     color: var(--yt-spec-static-brand-white) !important;
-    background-color: var(--yt-spec-brand-button-background) !important;
+    background-color: var(--subscribe-red) !important;
     text-transform: uppercase !important;
 }
-
+/* Makes sure SUBSCRIBED BUTTON IS GRAY */
+#subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
+ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+    color: var(--yt-spec-text-secondary) !important;
+    background-color: var(--yt-spec-badge-chip-background) !important;
+}
 /* RETURNS BACKGROUND TO UNSUBSCRIBE on SHORTS */
 html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: #303030 !important;
+    background-color: var(--dark-background) !important;
 }
 html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
-    background-color: #f2f2f2 !important;
+    background-color: var(--light-background) !important;
 }
 
 /* Makes JOIN BUTTON Blue */
@@ -35,11 +41,10 @@ ytd-sponsor-button-renderer yt-button-shape button,
 #sponsor-button yt-button-shape a[aria-label="Join"],
 ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-
 /* Makes PURCHASE BUTTON Blue */
 #purchase yt-button-shape button,
 #purchase-button yt-button-shape button,
@@ -49,11 +54,10 @@ ytd-purchase-button-renderer yt-button-shape button,
 #purchase-button yt-button-shape a[aria-label="Join"],
 ytd-purchase-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-
 /* Makes BUY BUTTON Blue */
 #buy yt-button-shape button,
 #buy-button yt-button-shape button,
@@ -63,11 +67,10 @@ ytd-buy-button-renderer yt-button-shape button,
 #buy-button yt-button-shape a[aria-label="Join"],
 ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-
 /* Makes ACTION BUTTON Blue */
 #action yt-button-shape button,
 #action-button yt-button-shape button,
@@ -77,7 +80,7 @@ ytd-action-button-renderer yt-button-shape button,
 #action-button yt-button-shape a[aria-label="Join"],
 ytd-action-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
@@ -91,11 +94,10 @@ ytd-copy-button-renderer yt-button-shape button,
 #copy-button yt-button-shape a[aria-label="Join"],
 ytd-copy-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-
 /* Makes SHARE BUTTON Blue */
 #share yt-button-shape button,
 #share-button yt-button-shape button,
@@ -105,12 +107,16 @@ ytd-share-button-renderer yt-button-shape button,
 #share-button yt-button-shape a[aria-label="Join"],
 ytd-share-button-renderer yt-button-shape a[aria-label="Join"] {
     color: white !important;
-    background-color: #075fd4 !important;
+    background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-
 /* Makes engagment uppercase */
 .yt-core-attributed-string--white-space-no-wrap {
-    text-transform: uppercase;
+    text-transform: uppercase !important;
+}
+
+/* Makes button blue when pressed */
+[aria-pressed="true"] {
+    color: var(--light-blue) !important;
 }
