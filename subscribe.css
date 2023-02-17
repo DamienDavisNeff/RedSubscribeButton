@@ -105,8 +105,6 @@ ytd-copy-button-renderer yt-button-shape a[aria-label="Join"] {
 
 /* Makes button blue when pressed */
 /* does not work for animated like button */
-/*
 [aria-pressed="true"] {
     color: var(--light-blue) !important;
 }
-*/
