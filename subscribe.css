@@ -98,25 +98,15 @@ ytd-copy-button-renderer yt-button-shape a[aria-label="Join"] {
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-/* Makes SHARE BUTTON Blue */
-#share yt-button-shape button,
-#share-button yt-button-shape button,
-/* Top 2 required for non-signed in */
-ytd-share-button-renderer yt-button-shape button,
-#share yt-button-shape a[aria-label="Join"],
-#share-button yt-button-shape a[aria-label="Join"],
-ytd-share-button-renderer yt-button-shape a[aria-label="Join"] {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-    text-transform: uppercase !important;
-}
 /* Makes engagment uppercase */
 .yt-core-attributed-string--white-space-no-wrap {
     text-transform: uppercase !important;
 }
 
 /* Makes button blue when pressed */
+/* does not work for animated like button */
+/*
 [aria-pressed="true"] {
     color: var(--light-blue) !important;
 }
+*/
