@@ -1,5 +1,6 @@
 -- 0.3.1.1
     -- Added new icons
+    -- Removed unnessasary code
 -- 0.3.1.0
     -- Made like buttons blue when pressed, like the old layout
 -- 0.3.0.0
