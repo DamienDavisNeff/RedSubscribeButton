@@ -1,7 +1,5 @@
 -- 0.3.1.0 (Unfinished)
     -- Made like buttons blue when pressed, like the old layout
-    -- Known Bugs
-        - Like Icon does not become blue after animation
 -- 0.3.0.1
     -- Bug Fixes
         - Fixed an issue where the share button's background would appear blue, incosistent
