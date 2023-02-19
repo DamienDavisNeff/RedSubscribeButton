@@ -1,3 +1,4 @@
+/* Color variables */
 :root {
     --subscribe-red: red;
     --light-blue: #50a3f1;
@@ -6,10 +7,9 @@
     --light-background: #f2f2f2; 
 }
 
-/* Makes SUBSCRIBE BUTTON Red */
+/* Returns SUBSCRIBE button color */
 #subscribe yt-button-shape button,
 #subscribe-button yt-button-shape button,
-/* Top 2 required for non-signed in */
 ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label="Subscribe"],
 #subscribe-button yt-button-shape a[aria-label="Subscribe"],
@@ -18,7 +18,7 @@ ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
     background-color: var(--subscribe-red) !important;
     text-transform: uppercase !important;
 }
-/* Makes sure SUBSCRIBED BUTTON IS GRAY */
+/* Makes sure SUBSCRIBED BUTTON REMAINS GRAY */
 #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
 ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
     color: var(--yt-spec-text-secondary) !important;
@@ -32,10 +32,9 @@ html:not([dark]) ytd-shorts #subscribe-button yt-button-shape button.yt-spec-but
     background-color: var(--light-background) !important;
 }
 
-/* Makes JOIN BUTTON Blue */
+/* Returns JOIN button color */
 #sponsor yt-button-shape button,
 #sponsor-button yt-button-shape button,
-/* Top 2 required for non-signed in */
 ytd-sponsor-button-renderer yt-button-shape button,
 #sponsor yt-button-shape a[aria-label="Join"],
 #sponsor-button yt-button-shape a[aria-label="Join"],
@@ -45,23 +44,10 @@ ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-/* Makes PURCHASE BUTTON Blue */
-#purchase yt-button-shape button,
-#purchase-button yt-button-shape button,
-/* Top 2 required for non-signed in */
-ytd-purchase-button-renderer yt-button-shape button,
-#purchase yt-button-shape a[aria-label="Join"],
-#purchase-button yt-button-shape a[aria-label="Join"],
-ytd-purchase-button-renderer yt-button-shape a[aria-label="Join"] {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-    text-transform: uppercase !important;
-}
-/* Makes BUY BUTTON Blue */
+
+/* Applies Returned JOIN button color scheme to other JOIN button*/
 #buy yt-button-shape button,
 #buy-button yt-button-shape button,
-/* Top 2 required for non-signed in */
 ytd-buy-button-renderer yt-button-shape button,
 #buy yt-button-shape a[aria-label="Join"],
 #buy-button yt-button-shape a[aria-label="Join"],
@@ -71,43 +57,35 @@ ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
-/* Makes ACTION BUTTON Blue */
+/* Applies Returned JOIN button color scheme to TRY IT button */
 #action yt-button-shape button,
 #action-button yt-button-shape button,
-/* Top 2 required for non-signed in */
-ytd-action-button-renderer yt-button-shape button,
-#action yt-button-shape a[aria-label="Join"],
-#action-button yt-button-shape a[aria-label="Join"],
-ytd-action-button-renderer yt-button-shape a[aria-label="Join"] {
+ytd-action-button-renderer yt-button-shape button {
+    color: white !important;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw;
+    text-transform: uppercase !important;
+}
+/* Applies Returned JOIN button color scheme to COPY button */
+#copy yt-button-shape button,
+#copy-button yt-button-shape button,
+ytd-copy-button-renderer yt-button-shape button {
     color: white !important;
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
     text-transform: uppercase !important;
 }
 
-/* Makes COPY BUTTON Blue */
-#copy yt-button-shape button,
-#copy-button yt-button-shape button,
-/* Top 2 required for non-signed in */
-ytd-copy-button-renderer yt-button-shape button,
-#copy yt-button-shape a[aria-label="Join"],
-#copy-button yt-button-shape a[aria-label="Join"],
-ytd-copy-button-renderer yt-button-shape a[aria-label="Join"] {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-    text-transform: uppercase !important;
-}
-/* Makes engagment uppercase */
+/* UPPERCASE ENGAGMENT */
 .yt-core-attributed-string--white-space-no-wrap {
     text-transform: uppercase !important;
 }
 
-/* Makes button blue when pressed */
-/* does not work for animated like button */
+/* RETURN LIKE BUTTON COLOR */
 button[aria-pressed="true"] {
     color: var(--light-blue) !important;
 }
+/* returns like button while keeping animation */
 button[aria-pressed="true"] yt-icon yt-animated-icon path {
     stroke: var(--light-blue) !important;
     fill: var(--light-blue) !important; 
