@@ -14,5 +14,8 @@ A browser extension that Returns the Subscribe Button's red color, keeping YouTu
 <li>Returns Blue Join Button</li>
 <li>Returns the Blue Like Button</li>
 
+## Update Log 🪓
+To view most recent updates, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/changelog.md)
+
 ## Report Problems ☢️
 To report any problems, please report it [here](https://github.com/DamienDavisNeff/RedSubscribeButton/issues)
