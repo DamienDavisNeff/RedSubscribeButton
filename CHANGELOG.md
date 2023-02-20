@@ -1,3 +1,7 @@
+<li><b>0.3.1.2</b></li>
+    <ul>
+    <li>Added popup for links</li>
+    </ul>
 <li><b>0.3.1.1</b></li>
     <ul>
     <li>Added new icons</li>

@@ -1,0 +1,29 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+* {
+    transition-duration: 250ms;
+}
+
+body {
+    width: 300px;
+    height: 55px;
+}
+
+.iconParent {
+    text-align: center;
+    position: fixed;
+    top: 10px;
+}
+.icon {
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: brightness(0) invert();
+}
+.icon:hover {
+    opacity:0.4;
+    cursor:pointer;
+}
