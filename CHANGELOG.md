@@ -1,6 +1,7 @@
 <li><b>0.3.1.2</b></li>
     <ul>
     <li>Added popup for links</li>
+    <li>Migrated to manifest 3 on firefox (does not effect chrome)</li>
     </ul>
 <li><b>0.3.1.1</b></li>
     <ul>
