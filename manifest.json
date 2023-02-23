@@ -15,6 +15,9 @@
       "css": ["css/variables.css","css/subscribe_button.css","css/blue_buttons.css","css/like_button.css","css/uppercase_letters.css"],
       "matches": ["*://*.youtube.com/*"]
     }],
+    "permissions":[
+      "storage"
+    ],
     "browser_specific_settings": {
       "gecko":{
         "id":"d059eb92-eaf4-4cef-af6a-887fe7579e72",
