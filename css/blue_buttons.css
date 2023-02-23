@@ -1,0 +1,38 @@
+/* Returns JOIN button color */
+#sponsor yt-button-shape button,
+#sponsor-button yt-button-shape button,
+ytd-sponsor-button-renderer yt-button-shape button,
+#sponsor yt-button-shape a[aria-label="Join"],
+#sponsor-button yt-button-shape a[aria-label="Join"],
+ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw;
+}
+/* Applies Returned JOIN button color scheme to other JOIN button*/
+#buy yt-button-shape button,
+#buy-button yt-button-shape button,
+ytd-buy-button-renderer yt-button-shape button,
+#buy yt-button-shape a[aria-label="Join"],
+#buy-button yt-button-shape a[aria-label="Join"],
+ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
+    color: white !important;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw;
+}
+/* Applies Returned JOIN button color scheme to TRY IT button */
+#action yt-button-shape button,
+#action-button yt-button-shape button,
+ytd-action-button-renderer yt-button-shape button {
+    color: white !important;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw;
+}
+/* Applies Returned JOIN button color scheme to COPY button */
+#copy yt-button-shape button,
+#copy-button yt-button-shape button,
+ytd-copy-button-renderer yt-button-shape button {
+    color: white !important;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw;
+}

@@ -1,0 +1,9 @@
+/* RETURN LIKE BUTTON COLOR */
+button[aria-pressed="true"] {
+    color: var(--light-blue) !important;
+}
+/* returns like button while keeping animation */
+button[aria-pressed="true"] yt-icon yt-animated-icon path {
+    stroke: var(--light-blue) !important;
+    fill: var(--light-blue) !important; 
+}
