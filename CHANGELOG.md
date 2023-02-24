@@ -9,11 +9,6 @@
     <li>Added consistent color scheme to comment button</li>
     <li>Added new option for rounded rectangle shaped buttons</li>
     </ul>
-<li><b>0.4.0.1</b></li>
-    <ul>
-    <li>Fixed a bug where all options were off until you turned them off and on again</li>
-    <li>Fixed a bug where JOIN css was incorrect in manifest</li>
-    </ul>
 <li><b>0.4.0.0</b></li>
     <ul>
     <li>Added options to the popup, these allow you to edit what features are enabled</li>
