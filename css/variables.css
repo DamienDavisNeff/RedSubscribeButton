@@ -3,5 +3,6 @@
     --light-blue: #50a3f1;
     --dark-blue: #075fd4;
     --dark-background: #303030;
-    --light-background: #f2f2f2; 
+    --light-background: #f2f2f2;
+    --border-radius-rect: 10px; 
 }

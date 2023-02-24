@@ -1,8 +1,7 @@
-<li><b>0.4.0.2</b></li>
-<i>Currently Unreleased, These Features Will Be Added In Next Critical Bug Fix, Or Major Update, Whichever Comes First</i>
+<li><b>0.4.1.0</b></li>
     <ul>
     <li>Added consistent color scheme to comment button</li>
-    <li>To do: add consistent color scheme to customize buttons on channel</li>
+    <li>Added new option for rounded rectangle shaped buttons</li>
     </ul>
 <li><b>0.4.0.1</b></li>
     <ul>
