@@ -1,3 +1,7 @@
+<li><b>0.4.1.1</b></li>
+    <ul>
+    <li>Subscribe button no longer appears blue on channel pages</li>
+    <ul>
 <li><b>0.4.1.0</b></li>
     <ul>
     <li>Added consistent color scheme to comment button</li>

@@ -59,6 +59,6 @@ ytd-share-button-renderer yt-button-shape button {
 #buttons yt-button-shape button,
 ytd-copy-button-renderer yt-button-shape button {
     color: white !important;
-    background-color: var(--dark-blue) !important;
+    background-color: var(--dark-blue);
     stroke-width: 1vw;
 }
