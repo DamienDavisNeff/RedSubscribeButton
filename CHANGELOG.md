@@ -2,6 +2,7 @@
     <ul>
     <li>Subscribe button no longer appears blue on channel pages</li>
     <li>Subscribe button no longer appears blue when red is disabled, while blue context buttons is enabled</li>
+    <li>Search button no longer rounded, to be more consistent</li>
     <ul>
 <li><b>0.4.1.0</b></li>
     <ul>

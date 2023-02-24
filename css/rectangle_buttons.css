@@ -1,4 +1,4 @@
-button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shape-next--segmented-end) {
+button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shape-next--segmented-end):not(#search-icon-legacy) {
     border-radius: var(--border-radius-rect) !important;
 }
 
