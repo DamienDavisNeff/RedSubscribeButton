@@ -1,3 +1,9 @@
+<li><b>0.4.0.2</b></li>
+<i>Currently Unreleased, These Features Will Be Added In Next Critical Bug Fix, Or Major Update, Whichever Comes First</i>
+    <ul>
+    <li>Added consistent color scheme to comment button</li>
+    <li>To do: add consistent color scheme to customize buttons on channel</li>
+    </ul>
 <li><b>0.4.0.1</b></li>
     <ul>
     <li>Fixed a bug where all options were off until you turned them off and on again</li>
