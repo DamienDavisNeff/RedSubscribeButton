@@ -10,9 +10,11 @@ A browser extension that Returns the Subscribe Button's red color, keeping YouTu
 ![A YouTube short by Zach King, where he and a woman are dressed as farmers. The Subscribe Button is returned to the better Red color.](/images/Screenshot1.jpg)
 
 ## Feature List 📃
+### Toggle Each Of These In The Popup Menu
 <li>Returns the Red Subscribe Button</li>
 <li>Returns Blue Join Button</li>
 <li>Returns the Blue Like Button</li>
+<li>Returns the Boxy Buttons</li>
 
 ## Update Log 🪓
 To view most recent updates, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/CHANGELOG.md)
