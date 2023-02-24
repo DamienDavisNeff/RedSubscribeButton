@@ -1,6 +1,6 @@
 const Files = {
     "css/subscribe_button.css":"subscribe",
-    "css/join_button.css":"join",
+    "css/blue_buttons.css":"join",
     "css/like_button.css":"like",
     "css/uppercase_letters.css":"uppercase",
     "css/rectangle_buttons.css":"rectangle"
@@ -17,7 +17,17 @@ chrome.storage.onChanged.addListener((changes,namespace) => {
 });
 // runs on page load
 chrome.storage.local.get("settings",function(result) {
-    const settings = result.settings || {};
+    let settings = result.settings;
+    if(!settings) {
+        settings = {
+            "subscribe":true,
+            "join":true,
+            "like":true,
+            "uppercase":true,
+            "rectangle":false
+        }
+        chrome.storage.local.set({"settings":settings});
+    }
     UpdateFiles(settings);
 })
 
