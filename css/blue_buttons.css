@@ -56,7 +56,7 @@ ytd-share-button-renderer yt-button-shape button {
     stroke-width: 1vw;
 }
 /* COMMENT, AND OTHER MISC */
-#buttons yt-button-shape button,
+#buttons yt-button-shape button:not([aria-label~="Subscribe"]),
 ytd-copy-button-renderer yt-button-shape button {
     color: white !important;
     background-color: var(--dark-blue);
