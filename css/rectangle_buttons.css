@@ -10,7 +10,3 @@ button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shap
     border-top-right-radius: var(--border-radius-rect) !important;
     border-bottom-right-radius: var(--border-radius-rect) !important;
 }
-
-yt-button-shape ::after {
-    opacity: 0;
-}
