@@ -1,5 +1,5 @@
 /* Returns SUBSCRIBE button color */
-#subscribe yt-button-shape button,
+#subscribe yt-button-shape button:not(button[aria-label~="Unsubscribe"]),
 #subscribe-button yt-button-shape button,
 ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label="Subscribe"],
