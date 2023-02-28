@@ -54,3 +54,7 @@ function RemoveFile(file) {
     const links = document.querySelectorAll(`link[href="${chrome.runtime.getURL(file)}"]`);
     links.forEach(link => link.remove());
 }
+
+document.addEventListener("visibilitychange",function() {
+    if(document.visibilityState === "visible") UpdateFiles();
+})
