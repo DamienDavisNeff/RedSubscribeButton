@@ -4,6 +4,7 @@
     <li>Subscribe button no longer appears blue when red is disabled, while blue context buttons is enabled</li>
     <li>Search button no longer rounded</li>
     <li>Subscribed buttons no longer appear red on featured channel pages</li>
+    <li>Most likely fixed css not loading when leaving the page while it is still loading</li>
     </ul>
 <li><b>0.4.1.0</b></li>
     <ul>
@@ -20,8 +21,4 @@
     <li>Made all words uppercase in engagement section</li>
     <li>Made like buttons blue when pressed, like the old layout</li>
     <li>Migrated to manifest 3 on firefox (does not effect chrome)</li>
-    </ul>
-<li><b>0.2.0.0</b></li>
-    <ul>
-    <li>MAJOR Optimizations</li>
     </ul>
