@@ -1,3 +1,7 @@
+<li><b>0.4.2.0</b></li>
+    <ul>
+    <li>Removed language barriers for most buttons</li>
+    </ul>
 <li><b>0.4.1.3</b></li>
     <ul>
     <li>Subscribe button no longer appears blue on channel pages</li>
