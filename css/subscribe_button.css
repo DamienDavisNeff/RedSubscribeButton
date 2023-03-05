@@ -1,10 +1,10 @@
 /* Returns SUBSCRIBE button color */
-#subscribe yt-button-shape button:not(button[aria-label~="Unsubscribe"]),
+div#subscribe > ytd-subscribe-button-renderer:has(> #notification-preference-toggle-button[hidden]) > yt-button-shape > button,
 #subscribe-button yt-button-shape button,
 ytd-subscribe-button-renderer yt-button-shape button,
-#subscribe yt-button-shape a[aria-label="Subscribe"],
-#subscribe-button yt-button-shape a[aria-label="Subscribe"],
-ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
+#subscribe yt-button-shape a,
+#subscribe-button yt-button-shape a,
+ytd-subscribe-button-renderer yt-button-shape a {
     color: var(--yt-spec-static-brand-white) !important;
     background-color: var(--subscribe-red) !important;
 }
