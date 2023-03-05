@@ -2,21 +2,20 @@
 #sponsor yt-button-shape button,
 #sponsor-button yt-button-shape button,
 ytd-sponsor-button-renderer yt-button-shape button,
-#sponsor yt-button-shape a[aria-label="Join"],
-#sponsor-button yt-button-shape a[aria-label="Join"],
-ytd-sponsor-button-renderer yt-button-shape a[aria-label="Join"] {
+#sponsor yt-button-shape a,
+#sponsor-button yt-button-shape a,
+ytd-sponsor-button-renderer yt-button-shape a {
     color: white !important;
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
 }
 /* YT PREMIUM, I AM PRETTY SURE */
-
 #buy yt-button-shape button,
 #buy-button yt-button-shape button,
 ytd-buy-button-renderer yt-button-shape button,
-#buy yt-button-shape a[aria-label="Join"],
-#buy-button yt-button-shape a[aria-label="Join"],
-ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
+#buy yt-button-shape a,
+#buy-button yt-button-shape a,
+ytd-buy-button-renderer yt-button-shape a {
     color: white !important;
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
@@ -25,9 +24,9 @@ ytd-buy-button-renderer yt-button-shape a[aria-label="Join"] {
 #purchase yt-button-shape button,
 #purchase-button yt-button-shape button,
 ytd-purchase-button-renderer yt-button-shape button,
-#purchase yt-button-shape a[aria-label="Join"],
-#purchase-button yt-button-shape a[aria-label="Join"],
-ytd-purchase-button-renderer yt-button-shape a[aria-label="Join"] {
+#purchase yt-button-shape a,
+#purchase-button yt-button-shape a,
+ytd-purchase-button-renderer yt-button-shape a {
     color: white !important;
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw;
