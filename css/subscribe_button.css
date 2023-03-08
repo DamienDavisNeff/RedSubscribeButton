@@ -4,6 +4,7 @@ div#subscribe > ytd-subscribe-button-renderer:has(> #notification-preference-tog
 ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a,
 #subscribe-button yt-button-shape a,
+yt-button-shape a[aria-label~="Subscribe"],
 ytd-subscribe-button-renderer yt-button-shape a {
     color: var(--yt-spec-static-brand-white) !important;
     background-color: var(--subscribe-red) !important;

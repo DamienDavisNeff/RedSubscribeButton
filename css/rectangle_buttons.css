@@ -2,6 +2,10 @@ button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shap
     border-radius: var(--border-radius-rect) !important;
 }
 
+yt-button-shape a[aria-label~="Subscribe"] {
+    border-radius: var(--border-radius-rect);
+}
+
 .yt-spec-button-shape-next--segmented-start {
     border-top-left-radius: var(--border-radius-rect) !important;
     border-bottom-left-radius: var(--border-radius-rect) !important;
