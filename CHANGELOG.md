@@ -1,6 +1,8 @@
-<li><b>0.4.2.0</b></li>
+<li><b>0.4.2.1</b></li>
     <ul>
     <li>Removed language barriers for most buttons</li>
+    <li>Side subscribe button now appears properly when not signed in</li>
+    <li>Fixed subscribe button on featured channel pages</li>
     </ul>
 <li><b>0.4.1.3</b></li>
     <ul>
