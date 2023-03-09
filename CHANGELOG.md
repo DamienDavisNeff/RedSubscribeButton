@@ -20,4 +20,4 @@
 * Returned the Blue Color of the JOIN Button & Other BUY Buttons
 * Made all words uppercase in engagement section
 * Made like buttons blue when pressed, like the old layout
-* Migrated to manifest 3 on firefox (does not effect chrome)
+* Migrated to manifest 3 on Firefox (does not effect chrome)

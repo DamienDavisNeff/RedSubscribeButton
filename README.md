@@ -19,8 +19,8 @@ A browser extension that Returns the Subscribe Button's red color, keeping YouTu
 ## Change Log 🪓
 To view most recent updates, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/CHANGELOG.md)
 
-## Liscense 💳
-To view the liscense, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/LISCENSE.md)
+## License 💳
+To view the license, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/LICENSE.md)
 
 ## Report Problems ☢️
 To report any problems, please report it [here](https://github.com/DamienDavisNeff/RedSubscribeButton/issues)
