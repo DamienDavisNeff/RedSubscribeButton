@@ -21,6 +21,28 @@ label {
 }
 input {
     float: right;
+    text-align: right;
+    max-width: 80px;
+}
+input[type="color"] {
+    margin-top:-5px;
+}
+.buttonParent {
+    text-align: center;
+}
+#reset {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+}
+#reset:hover {
+    background-color: rgb(200,0,0);
+    cursor:pointer;
 }
 
 /* ICONS */

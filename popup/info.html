@@ -1,44 +1,66 @@
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">      
     <script src="settings.js" defer></script>
 </head>
 <body>
     <div class="settingsParent">
         <form id="settings">
 
+            <h1>Options</h1>
+
             <div class="optionsParent">
-                <label for="subscribe">Red Subscribe Button</label>
+                <label for="subscribe">Colored Subscribe Button</label>
                 <input type="checkbox" id="subscribe">
             </div><br>
-
             <div class="optionsParent">
-                <label for="join">Blue Context Buttons</label>
+                <label for="join">Colored Context Buttons</label>
                 <input type="checkbox" id="join">
             </div><br>
-
             <div class="optionsParent">
-                <label for="like">Blue Like Buttons</label>
+                <label for="like">Colored Like Buttons</label>
                 <input type="checkbox" id="like">
             </div><br>
-
             <div class="optionsParent">
                 <label for="uppercase">Uppercase Engagment Sections</label>
                 <input type="checkbox" id="uppercase">
             </div><br>
-
             <div class="optionsParent">
-                <label for="rectangle">Boxy Buttons (Beta)</label>
+                <label for="rectangle">Boxy Buttons</label>
                 <input type="checkbox" id="rectangle">
             </div>
 
+            <div>
+                <h1>Option Settings (Beta)</h1>
+
+                <div class="optionsParent" id="subscribe-additional">
+                    <label for="subscribe-color">Subscribe Button Color</label>
+                    <input type="color" id="subscribe-color">
+                </div><br>
+                <div class="optionsParent" id="join-additional">
+                    <label for="join-color">Context Button Color</label>
+                    <input type="color" id="join-color">
+                </div><br>
+                <div class="optionsParent" id="like-additional">
+                    <label for="like-color">Like Button Color</label>
+                    <input type="color" id="like-color">
+                </div><br>
+                <div class="optionsParent" id="radius-additional">
+                    <label for="button-radius">Button Radius</label>
+                    <input type="number" step="1" min="0" id="button-radius">
+                </div><br><br>
+                <div class="buttonParent">
+                    <button id="reset">Reset Default Settings</button>
+                </div>
+            </div>
         </form>   
     </div>
+    <br>
     <div class="iconParent">
         <a href="https://chrome.google.com/webstore/detail/return-the-red-subscribe/jelocjcknmhfifcapebeibnolciholbl" target="_blank"><img src="images/chrome.svg" class="icon"></a>
         <a href="https://addons.mozilla.org/en-US/firefox/addon/returntheredsubscribebutton/" target="_blank"><img src="images/firefox.svg" class="icon"></a>
         <a href="https://twitter.com/SirSpiroSZN" target="_blank"><img src="images/twitter.svg" class="icon"></a>
         <a href="https://github.com/DamienDavisNeff/RedSubscribeButton" target="_blank"><img src="images/github.svg" class="icon"></a>
-    </div>
+    </div><br>
 </body>
 </html>

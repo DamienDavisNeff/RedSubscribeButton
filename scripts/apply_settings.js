@@ -42,6 +42,11 @@ function UpdateFiles(settings) {
             RemoveFile(file);
         }
     }
+    document.documentElement.style.setProperty('--subscribe-red',settings["subscribe-color"]);
+    document.documentElement.style.setProperty('--text',settings["text-color"]);
+    document.documentElement.style.setProperty('--light-blue',settings["like-color"]);
+    document.documentElement.style.setProperty('--dark-blue',settings["join-color"]);
+    document.documentElement.style.setProperty('--border-radius-rect',`${settings["rectangle-radius"]}px`);
 }
 function AddFile(file) {
     const link = document.createElement("link");

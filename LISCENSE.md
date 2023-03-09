@@ -1,1 +1,1 @@
-<b>You may NOT Redistribute these files for ANY REASON. You may NOT MODIFY these files, except for personal use. 
+You may not distribute this project for any reason, and may not modify it, except for personal usel.

@@ -1,8 +1,9 @@
 :root {
-    --subscribe-red: red;
-    --light-blue: #50a3f1;
-    --dark-blue: #075fd4;
+    --subscribe-red: #ff0000;
+    --text: #ffffff;
+    --light-blue: #50a0f0;
+    --dark-blue: #005fd2;
     --dark-background: #303030;
-    --light-background: #f2f2f2;
+    --light-background: #ffffff;
     --border-radius-rect: 10px; 
 }
