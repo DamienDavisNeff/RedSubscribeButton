@@ -4,53 +4,41 @@
 ytd-sponsor-button-renderer yt-button-shape button,
 #sponsor yt-button-shape a,
 #sponsor-button yt-button-shape a,
-ytd-sponsor-button-renderer yt-button-shape a {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-}
+ytd-sponsor-button-renderer yt-button-shape a,
+
 /* YT PREMIUM, I AM PRETTY SURE */
 #buy yt-button-shape button,
 #buy-button yt-button-shape button,
 ytd-buy-button-renderer yt-button-shape button,
 #buy yt-button-shape a,
 #buy-button yt-button-shape a,
-ytd-buy-button-renderer yt-button-shape a {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-}
-/* OTHER JOIN */
+ytd-buy-button-renderer yt-button-shape a,
+
 #purchase yt-button-shape button,
 #purchase-button yt-button-shape button,
 ytd-purchase-button-renderer yt-button-shape button,
 #purchase yt-button-shape a,
 #purchase-button yt-button-shape a,
-ytd-purchase-button-renderer yt-button-shape a {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-}
+ytd-purchase-button-renderer yt-button-shape a,
+
 /* OTHER ACTION */
 #action yt-button-shape button,
 #action-button yt-button-shape button,
-ytd-action-button-renderer yt-button-shape button {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-}
-/* Applies Returned JOIN button color scheme to COPY button */
+ytd-action-button-renderer yt-button-shape button,
+
 #copy yt-button-shape button,
 #copy-button yt-button-shape button,
-ytd-copy-button-renderer yt-button-shape button {
-    color: white !important;
-    background-color: var(--dark-blue) !important;
-    stroke-width: 1vw;
-}
+ytd-copy-button-renderer yt-button-shape button,
+
 /* COMMENT, AND OTHER MISC */
 #buttons yt-button-shape button:not([aria-label~="Subscribe"]),
-ytd-copy-button-renderer yt-button-shape button {
+ytd-copy-button-renderer yt-button-shape button,
+
+a[aria-label~="Analytics"],
+a[aria-label~="Edit"]
+
+{
     color: white !important;
-    background-color: var(--dark-blue);
-    stroke-width: 1vw;
+    background-color: var(--dark-blue) !important;
+    stroke-width: 1vw !important;
 }

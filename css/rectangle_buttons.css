@@ -1,15 +1,18 @@
-button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shape-next--segmented-end):not(#search-icon-legacy) {
+a[aria-label~="Analytics"],
+a[aria-label~="Edit"],
+yt-button-shape a[aria-label~="Subscribe"],
+button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shape-next--segmented-end):not(#search-icon-legacy) 
+
+{
     border-radius: var(--border-radius-rect) !important;
 }
 
-yt-button-shape a[aria-label~="Subscribe"] {
-    border-radius: var(--border-radius-rect);
-}
-
+/* LEFT SIDE */
 .yt-spec-button-shape-next--segmented-start {
     border-top-left-radius: var(--border-radius-rect) !important;
     border-bottom-left-radius: var(--border-radius-rect) !important;
 }
+/* RIGHT SIDE */
 .yt-spec-button-shape-next--segmented-end {
     border-top-right-radius: var(--border-radius-rect) !important;
     border-bottom-right-radius: var(--border-radius-rect) !important;
