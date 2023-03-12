@@ -5,16 +5,21 @@ ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label~="Subscribe"],
 #subscribe-button yt-button-shape a[aria-label~="Subscribe"],
 yt-button-shape a[aria-label~="Subscribe"],
-ytd-subscribe-button-renderer yt-button-shape a {
+ytd-subscribe-button-renderer yt-button-shape a
+
+{
     color: var(--yt-spec-static-brand-white) !important;
     background-color: var(--subscribe-red) !important;
 }
+
 /* Makes sure SUBSCRIBED BUTTON REMAINS GRAY */
 #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal,
-ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
+ytd-subscribe-button-renderer yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal 
+{
     color: var(--yt-spec-text-secondary) !important;
     background-color: var(--yt-spec-badge-chip-background) !important;
 }
+
 /* RETURNS BACKGROUND TO UNSUBSCRIBE on SHORTS */
 html[dark] ytd-shorts #subscribe-button yt-button-shape button.yt-spec-button-shape-next.yt-spec-button-shape-next--tonal {
     background-color: var(--dark-background) !important;

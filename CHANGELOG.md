@@ -1,3 +1,8 @@
+# 0.5.0.1
+* Minor bug fixes
+    * Edit buttons are now consistent with the shape and color of other buttons
+    * Optimized filesize of css files slightly.
+
 ## 0.5.0.0 - The Customization Update
 
 ### Main Features
