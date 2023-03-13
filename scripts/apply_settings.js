@@ -31,7 +31,7 @@ chrome.storage.onChanged.addListener((changes,namespace) => {
 // Page Visibility Event
 document.addEventListener("visibilitychange",function() {
     if(document.visibilityState === "visible") {
-        chrome.storange.local.get("settings",function(result) {
+        chrome.storage.local.get("settings",function(result) {
             if(!result.settings) {
                 settings = DefaultSettings;
                 chrome.storage.local.set({"settings":settings});
