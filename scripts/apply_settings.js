@@ -5,8 +5,21 @@ const Files = {
     "css/uppercase_letters.css":"uppercase",
     "css/rectangle_buttons.css":"rectangle"
 }
+const DefaultSettings = {
+    "subscribe": true,
+    "subscribe-color": "#ff0000",
+    "join": true,
+    "join-color": "#005fd2",
+    "like": true,
+    "like-color": "50a0f0",
+    "uppercase": true,
+    "uppercase-main": true,
+    "uppercase-other": true,
+    "rectangle": false,
+    "rectangle-radius": 10
+}
 
-// runs on setting change
+// Chrome Storage Event
 chrome.storage.onChanged.addListener((changes,namespace) => {
     for(let key in changes) {
         if(key === "settings") {
@@ -15,27 +28,41 @@ chrome.storage.onChanged.addListener((changes,namespace) => {
         }
     }
 });
-// runs on page load
-chrome.storage.local.get("settings",function(result) {
-    let settings = result.settings;
-    if(!settings) {
-        settings = {
-            "subscribe":true,
-            "join":true,
-            "like":true,
-            "uppercase":true,
-            "rectangle":false
-        }
-        chrome.storage.local.set({"settings":settings});
+// Page Visibility Event
+document.addEventListener("visibilitychange",function() {
+    if(document.visibilityState === "visible") {
+        chrome.storange.local.get("settings",function(result) {
+            if(!result.settings) {
+                settings = DefaultSettings;
+                chrome.storage.local.set({"settings":settings});
+            } else {
+                settings = result.settings;
+            }
+            UpdateFiles(settings);
+        })
     }
-    UpdateFiles(settings);
 })
 
+// On Load
+LoadSettings();
+function LoadSettings() {
+    chrome.storage.local.get(["settings"], function(result) {
+        var settings = result.settings;
+        if(!settings || !CompareJSON(DefaultSettings,settings)) LoadDefaults();
+        UpdateFiles(settings);
+    })
+}
+function LoadDefaults() {
+    settings = DefaultSettings;
+    chrome.storage.local.set({"settings":settings});
+    UpdateFiles(settings);
+}
+
+// Update File Information
 function UpdateFiles(settings) {
     for(let file in Files) {
         const optionKey = Files[file];
         const isEnabled = settings[optionKey];
-        console.log(`File: ${file}, Option key: ${optionKey}, Is enabled: ${isEnabled}`);
         if(isEnabled) {
             AddFile(file);
         } else {
@@ -60,6 +87,11 @@ function RemoveFile(file) {
     links.forEach(link => link.remove());
 }
 
-document.addEventListener("visibilitychange",function() {
-    if(document.visibilityState === "visible") UpdateFiles();
-})
+// Compare JSON
+function CompareJSON(obj1,obj2) {
+    if(Object.keys(obj1).length !== Object.keys(obj2).length) return false;
+    for(let key in obj1) {
+      if(!obj2.hasOwnProperty(key)) return false;
+    }
+    return true;
+  }
