@@ -1,8 +1,12 @@
-## 0.5.0.1
+## 0.5.1.0
 * Minor bug fixes
     * Edit buttons are now consistent with the shape and color of other buttons
     * Optimized filesize of css files slightly
+* Major bug fixes
+    * Settings now load without opening the popup menu first
+    * Background of buttons no longer appear invisible without opening the popup menu first
 
+***
 ## 0.5.0.0 - The Customization Update
 
 ### Main Features
