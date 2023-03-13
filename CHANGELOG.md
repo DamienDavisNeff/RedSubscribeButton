@@ -1,4 +1,4 @@
-## 0.5.1.1
+## 0.5.1.0 - The Bug Squisher
 * Minor bug fixes
     * Edit buttons are now consistent with the shape and color of other buttons
     * Optimized filesize of css files slightly
