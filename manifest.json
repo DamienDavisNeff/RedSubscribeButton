@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Return The Red Subscribe Button",
     "short_name": "Red Subscribe Button",
-    "version": "0.5.1.1",
+    "version": "0.5.1.2",
     "description": "Brings back the classic red subscribe button.",
     "icons":{
       "128":"images/icon.png",
@@ -14,14 +14,14 @@
     "content_scripts": [{
       "css":["css/variables.css"],
       "js":["scripts/apply_settings.js"],
-      "matches": ["*://*.youtube.com/*"]
+      "matches": ["*://www.youtube.com/*"]
     }],
     "permissions":[
       "storage"
     ],
     "web_accessible_resources": [{
       "resources":["css/subscribe_button.css","css/blue_buttons.css","css/like_button.css","css/uppercase_letters.css","css/rectangle_buttons.css"],
-      "matches":["https://www.youtube.com/*"]
+      "matches":["*://www.youtube.com/*"]
     }],
     "browser_specific_settings": {
       "gecko":{
