@@ -12,7 +12,7 @@ const DefaultSettings = {
     "join": true,
     "join-color": "#005fd2",
     "like": true,
-    "like-color": "50a0f0",
+    "like-color": "#50a0f0",
     "uppercase-main": true,
     "uppercase-other": true,
     "rectangle": false,
