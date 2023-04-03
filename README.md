@@ -2,7 +2,7 @@
 A browser extension that Returns the Subscribe Button's red color, keeping YouTube's history alive while keeping the new design fresh. 
 
 ## Install Here ⏬
-[Get In The Chrome Webstore](https://chrome.google.com/webstore/detail/return-the-red-subscribe/jelocjcknmhfifcapebeibnolciholbl) <i>or</i> [Get In The Firefox Add-On Store](https://addons.mozilla.org/en-GB/firefox/addon/returntheredsubscribebutton/)
+[Get In The Chrome Webstore](https://chrome.google.com/webstore/detail/return-the-red-subscribe/jelocjcknmhfifcapebeibnolciholbl) <i>or</i> [Get In The Firefox Add-On Store](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/20)
 
 ## Screenshots 📷
 ![MKBHD's YouTube Original, Retro Tech's watch page. The Subscribe button is returned to the better red color. The Join button is returned to it's blue color. The like button is returned to it's blue color, while keeping the new animation.](/images/Screenshot3.jpg)
