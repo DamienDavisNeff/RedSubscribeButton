@@ -1,5 +1,7 @@
-## 0.5.1.2
+## 0.5.1.3
 * Seperated options for capatalized buttons & engagment sections. 
+* Like button color properly applied by default / [#21](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/21)
+* Margin added to notifications to properly align button / [#18](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/18)
 
 ## 0.5.1.1 - The Bug Squisher
 * Minor bug fixes
