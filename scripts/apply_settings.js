@@ -2,7 +2,8 @@ const Files = {
     "css/subscribe_button.css":"subscribe",
     "css/blue_buttons.css":"join",
     "css/like_button.css":"like",
-    "css/uppercase_letters.css":"uppercase",
+    "css/uppercase_letters.css":"uppercase-main",
+    "css/uppercase_engagment.css":"uppercase-other",
     "css/rectangle_buttons.css":"rectangle"
 }
 const DefaultSettings = {
@@ -12,7 +13,6 @@ const DefaultSettings = {
     "join-color": "#005fd2",
     "like": true,
     "like-color": "50a0f0",
-    "uppercase": true,
     "uppercase-main": true,
     "uppercase-other": true,
     "rectangle": false,

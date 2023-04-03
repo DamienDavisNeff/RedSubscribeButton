@@ -1,3 +1,6 @@
+## 0.5.1.2
+* Seperated options for capatalized buttons & engagment sections. 
+
 ## 0.5.1.1 - The Bug Squisher
 * Minor bug fixes
     * Edit buttons are now consistent with the shape and color of other buttons

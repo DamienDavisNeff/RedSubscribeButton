@@ -20,7 +20,7 @@
       "storage"
     ],
     "web_accessible_resources": [{
-      "resources":["css/subscribe_button.css","css/blue_buttons.css","css/like_button.css","css/uppercase_letters.css","css/rectangle_buttons.css"],
+      "resources":["css/subscribe_button.css","css/blue_buttons.css","css/like_button.css","css/uppercase_letters.css","css/uppercase_engagment.css","css/rectangle_buttons.css"],
       "matches":["*://www.youtube.com/*"]
     }],
     "browser_specific_settings": {

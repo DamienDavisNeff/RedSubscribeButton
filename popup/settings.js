@@ -7,7 +7,6 @@ var defaultSettings = {
   "join-color": "#005fd2",
   "like": true,
   "like-color": "#50a0f0",
-  "uppercase": true,
   "uppercase-main": true,
   "uppercase-other": true,
   "rectangle": false,
@@ -25,7 +24,8 @@ function loadSettings() {
     document.getElementById("join-color").value = settings["join-color"];
     document.getElementById("like").checked = settings["like"];
     document.getElementById("like-color").value = settings["like-color"];
-    document.getElementById("uppercase").checked = settings["uppercase"];
+    document.getElementById("uppercase-main").checked = settings["uppercase-main"];
+    document.getElementById("uppercase-other").checked = settings["uppercase-other"];
     document.getElementById("rectangle").checked = settings["rectangle"];
     document.getElementById("button-radius").value = settings["rectangle-radius"];
   });
@@ -38,7 +38,8 @@ function LoadDefaults() {
   document.getElementById("join-color").value = defaultSettings["join-color"];
   document.getElementById("like").checked = defaultSettings["like"];
   document.getElementById("like-color").value = defaultSettings["like-color"];
-  document.getElementById("uppercase").checked = defaultSettings["uppercase"];
+  document.getElementById("uppercase-main").checked = defaultSettings["uppercase-main"];
+  document.getElementById("uppercase-other").checked = defaultSettings["uppercase-other"];
   document.getElementById("rectangle").checked = defaultSettings["rectangle"];
   document.getElementById("button-radius").value = defaultSettings["rectangle-radius"];
   saveSettings();
@@ -53,9 +54,8 @@ function saveSettings() {
     "join-color": document.getElementById("join-color").value,
     "like": document.getElementById("like").checked,
     "like-color": document.getElementById("like-color").value,
-    "uppercase": document.getElementById("uppercase").checked,
-    "uppercase-main": true,
-    "uppercase-other": true,
+    "uppercase-main": document.getElementById("uppercase-main").checked,
+    "uppercase-other": document.getElementById("uppercase-other").checked,
     "rectangle": document.getElementById("rectangle").checked,
     "rectangle-radius": document.getElementById("button-radius").value
   };
@@ -70,7 +70,8 @@ document.getElementById("join").addEventListener("change", saveSettings);
 document.getElementById("join-color").addEventListener("change",saveSettings);
 document.getElementById("like").addEventListener("change", saveSettings);
 document.getElementById("like-color").addEventListener("change",saveSettings);
-document.getElementById("uppercase").addEventListener("change", saveSettings);
+document.getElementById("uppercase-main").addEventListener("change", saveSettings);
+document.getElementById("uppercase-other").addEventListener("change", saveSettings);
 document.getElementById("rectangle").addEventListener("change", saveSettings);
 document.getElementById("button-radius").addEventListener("change", function() {
   if(document.getElementById("button-radius").value < 0) document.getElementById("button-radius").value = 0;
