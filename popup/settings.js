@@ -8,7 +8,7 @@ var defaultSettings = {
   "like": true,
   "like-color": "#50a0f0",
   "uppercase-main": true,
-  "uppercase-other": true,
+  "uppercase-other": false,
   "rectangle": false,
   "rectangle-radius": 10
 };
