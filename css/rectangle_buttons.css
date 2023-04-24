@@ -1,7 +1,7 @@
 a[aria-label~="Analytics"],
 a[aria-label~="Edit"],
 yt-button-shape a[aria-label~="Subscribe"],
-div.ytp-sb-unsubscribe,
+div.ytp-sb-unsubscribe,div.ytp-sb-subscribe,
 button:not(.yt-spec-button-shape-next--segmented-start):not(.yt-spec-button-shape-next--segmented-end):not(#search-icon-legacy) 
 
 {
