@@ -42,3 +42,9 @@ a[aria-label~="Edit"]
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw !important;
 }
+
+/* fix some shorts titles from being blue */
+a:not(#video-title)
+{
+    background-color:rgba(0,0,0,0) !important;
+}
