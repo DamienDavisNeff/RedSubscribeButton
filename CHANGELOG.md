@@ -1,3 +1,7 @@
+## 0.5.1.4
+* Refixed [#11](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/11) in new HTML structure for YouTube
+* Some YouTube Shorts titles will no longer appear blue [#23](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/23)
+
 ## 0.5.1.3
 * Seperated options for capatalized buttons & engagment sections. 
 * Like button color properly applied by default / [#21](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/21)
