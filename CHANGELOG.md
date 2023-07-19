@@ -1,4 +1,5 @@
 ## 0.5.1.5
+* Branding subscribe button now appears red and uppercase (if applicable) [#24](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/24) [#25](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/25)
 * Some buttons will no longer appear transparent [#14](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/14)
 * A more elegant solution to [#23](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/23)
 

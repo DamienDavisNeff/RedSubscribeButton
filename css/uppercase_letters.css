@@ -36,6 +36,8 @@ ytd-copy-button-renderer yt-button-shape button {
 ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label="Subscribe"],
 #subscribe-button yt-button-shape a[aria-label="Subscribe"],
-ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"] {
+ytd-subscribe-button-renderer yt-button-shape a[aria-label="Subscribe"],
+div.ytp-sb-subscribe[aria-label~="Subscribe"]
+{
     text-transform: uppercase !important;
 }

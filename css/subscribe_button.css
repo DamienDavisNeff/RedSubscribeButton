@@ -6,7 +6,8 @@ ytd-subscribe-button-renderer yt-button-shape button,
 #subscribe yt-button-shape a[aria-label~="Subscribe"],
 #subscribe-button yt-button-shape a[aria-label~="Subscribe"],
 yt-button-shape a[aria-label~="Subscribe"],
-ytd-subscribe-button-renderer yt-button-shape a
+ytd-subscribe-button-renderer yt-button-shape a,
+div.ytp-sb-subscribe[aria-label~="Subscribe"]
 
 {
     color: var(--yt-spec-static-brand-white) !important;
