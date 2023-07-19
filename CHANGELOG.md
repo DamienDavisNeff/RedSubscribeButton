@@ -1,3 +1,7 @@
+## 0.5.1.3
+* Some buttons will no longer appear transparent [#13](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/11)
+* A more elegant solution to [#23](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/23)
+
 ## 0.5.1.4
 * Refixed [#11](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/11) in new HTML structure for YouTube
 * Some YouTube Shorts titles will no longer appear blue [#23](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/23)
