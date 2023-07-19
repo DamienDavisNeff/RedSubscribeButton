@@ -32,19 +32,10 @@ ytd-copy-button-renderer yt-button-shape button,
 
 /* COMMENT, AND OTHER MISC */
 #buttons yt-button-shape button:not([aria-label~="Subscribe"]),
-ytd-copy-button-renderer yt-button-shape button,
-
-a[aria-label~="Analytics"],
-a[aria-label~="Edit"]
+ytd-copy-button-renderer yt-button-shape button
 
 {
     color: white !important;
     background-color: var(--dark-blue) !important;
     stroke-width: 1vw !important;
-}
-
-/* fix some shorts titles from being blue */
-a:not(#video-title)
-{
-    background-color:rgba(0,0,0,0) !important;
 }
