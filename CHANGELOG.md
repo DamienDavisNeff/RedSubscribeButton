@@ -1,5 +1,5 @@
 ## 0.5.1.3
-* Some buttons will no longer appear transparent [#13](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/11)
+* Some buttons will no longer appear transparent [#14](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/14)
 * A more elegant solution to [#23](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/23)
 
 ## 0.5.1.4
