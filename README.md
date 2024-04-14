@@ -6,6 +6,8 @@ A browser extension that Returns the Subscribe Button's red color, keeping YouTu
 <br>
 [Firefox is no longer supported](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/20)
 
+### Only major bugs will be fixed from now on. No other features will be added.
+
 ## Screenshots 📷
 ![MKBHD's YouTube Original, Retro Tech's watch page. The Subscribe button is returned to the better red color. The Join button is returned to it's blue color. The like button is returned to it's blue color, while keeping the new animation.](/images/Screenshot3.jpg)
 ![MKBHD's YouTube page, on the channels section. All the Subscribe buttons are returned to the better red color. The Join button is returned to it's blue color.](/images/Screenshot2.jpg)
