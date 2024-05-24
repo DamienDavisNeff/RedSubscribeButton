@@ -2,9 +2,9 @@
 A browser extension that Returns the Subscribe Button's red color, keeping YouTube's history alive while keeping the new design fresh. 
 
 ## Install Here ⏬
-[Get in the Chrome Webstore](https://chrome.google.com/webstore/detail/return-the-red-subscribe/jelocjcknmhfifcapebeibnolciholbl)
+[Get in the Chrome Webstore](https://chrome.google.com/webstore/detail/return-the-red-subscribe/jelocjcknmhfifcapebeibnolciholbl) | No Longer Updated
 <br>
-[Firefox is no longer supported](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/20)
+[Get in the Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/returntheredsubscribebutton/) | [Current Versions Unsupported](https://github.com/DamienDavisNeff/RedSubscribeButton/issues/20)
 
 ### Only major bugs will be fixed from now on. No other features will be added.
 
@@ -27,4 +27,4 @@ To view most recent updates, click [here](https://github.com/DamienDavisNeff/Red
 To view the license, click [here](https://github.com/DamienDavisNeff/RedSubscribeButton/blob/main/LICENSE.md)
 
 ## Report Problems ☢️
-To report any problems, please report it [here](https://github.com/DamienDavisNeff/RedSubscribeButton/issues)
+To report any problems, please report it [here](https://github.com/DamienDavisNeff/RedSubscribeButton/issues), although they probably won't be addressed by me. 
